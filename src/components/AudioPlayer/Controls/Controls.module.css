@@ -1,0 +1,43 @@
+.controls_wraper {
+  width: 80%;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.action_btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.action_btn:hover {
+  transform: scale(1.1);
+}
+
+.play_pause_btn {
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+  /* background-color: #8BA1AD; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  /* box-shadow: inset -4px -4px 10px #244C66, inset 4px 4px 10px 1px #8BA1AD; */
+}
+
+.play_pause_btn.active {
+    /* box-shadow: inset -4px -4px 10px #8BA1AD, inset 4px 4px 10px 1px #244C66; */
+  }
+
+.play_pause_btn:hover {
+  transform: scale(1.1);
+}
